@@ -28,7 +28,7 @@
     <div class="flex justify-center gap-12 mt-12"
     :class="{'flex-row-reverse' : $i18n.locale === 'ar'}"
     >
-      <router-link :to="`/quiz/${this.quiz_id}/difficulty`">
+      <router-link :to="`/categories/${quiz_id}`">
         <button
           class="bg-primary text-white font-bold py-3 px-6 rounded-3xl border-2 border-primary hover:bg-white hover:text-primary transition duration-300 ease-in-out"
         >

@@ -32,10 +32,16 @@ export default {
     increment() {
       if (this.currentQuestionIndex < this.questions.length - 1) {
         this.currentQuestionIndex++;
-
+     
         // this.fetchAnswers(); // fetch answers for the next question
         console.log(this.currentQuestionIndex);
-      } else if (this.btnText == "Submit") {
+      }   if (
+          this.currentQuestionIndex == this.questions.length - 1  &&
+          this.btnText == "Next"
+        ) {
+          this.btnText = "Submit";
+          console.log(this.myanswers);
+        }else if (this.btnText == "Submit") {
         this.showModal = true;
       }
     },
@@ -214,7 +220,7 @@ export default {
     </router-link>
   </div>
 
-  <div class="text-gray-500 w-full" v-show="questions.length">
+  <div class="text-gray-500 w-full" v-if="questions.length">
     <div class="flex w-full justify-between">
       <h2 class="font-bold text-2xl">
         {{ categ_name.charAt(0).toUpperCase() + categ_name.slice(1) }} Quiz
@@ -274,7 +280,7 @@ export default {
         >
           <div
             class="flex items-center gap-8"
-            v-if="
+            v-if=" 
               answer.question == questions[currentQuestionIndex].id_question
             "
           >

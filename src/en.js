@@ -1,0 +1,51 @@
+// en.js
+export default {
+  dashboard: {
+    points: 'Points',
+    quizPassed: 'Quiz Passed',
+    quizPassedDesc: 'Quiz Passed',
+    fastestTime: 'Fastest Time',
+    fastestTimeDesc: 'Fastest Time',
+    correctAnswers: 'Correct Answers',
+    correctAnswersDesc: 'Correct Answers',
+    achievements: 'Achievements',
+    noAchievements: 'No Achievements yet!',
+    viewAll: 'View All',
+    featuredCategories: 'Featured Categories',
+    nofeaturedCategories: 'No Featured Categories yet!',
+  },
+  sidebar: {
+    dashboard: 'Dashboard',
+    support: 'Support',
+    notifications: 'Notifications',
+    logout: 'Logout',
+  },
+  navbar: {
+    searchPlaceholder: 'Search..',
+    startQuiz: 'Start Quiz',
+  },
+  categories: {
+    selectTopic: 'Select Topic',
+    featuredCategories: 'Featured Categories',
+    moreCategories: 'More Categories',
+    backToHome: 'Back to Home',
+  },
+  quizDetails: {
+    historyQuiz: 'History Quiz',
+    readInstructions: 'Read the following instructions',
+    date: 'Date:',
+    timeLimit: 'Time Limit:',
+    attempts: 'Attempts:',
+    points: 'Points:',
+    instructions: 'Instructions:',
+    quizConsists: 'This quiz consists of 5 multiple-choice questions. To be successful with the quizzes, it’s important to stay focused, keep in mind that:',
+    timing: 'Timing - You need to complete each of your attempts in one sitting, as you are allotted 30 minutes to each attempt.',
+    answers: 'Answers - You may review your answer-choices and compare them to the correct answers after your final attempt.',
+    cheating: 'Cheating - If you cheat you will lose points.',
+    startButton: 'Start',
+    submitButton: 'Submit',
+    backButton: 'Back',
+    startQuizButton: 'Start Quiz',
+  },
+};
+  

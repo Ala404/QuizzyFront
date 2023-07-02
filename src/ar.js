@@ -1,0 +1,51 @@
+// ar.js
+export default {
+    dashboard: {
+    points: 'النقاط',
+    quizPassed: 'تم اجتياز الاختبار',
+    quizPassedDesc: ' تم اجتياز الاختبار',
+    fastestTime: 'أسرع وقت',
+    fastestTimeDesc: ' أسرع وقت',
+    correctAnswers: 'الإجابات الصحيحة',
+    correctAnswersDesc: ' الإجابات الصحيحة',
+    achievements: 'الإنجازات',
+    noAchievements: 'لا يوجد إنجازات حتى الآن!',
+    viewAll: 'عرض الكل',
+    featuredCategories: 'التصنيفات المميزة',
+    nofeaturedCategories: 'لا يوجد تصنيفات مميزة حتى الآن!',
+  },
+  sidebar: {
+    dashboard: 'لوحة التحكم',
+    support: 'الدعم',
+    notifications: 'الإشعارات',
+    logout: 'تسجيل الخروج',
+  },
+  navbar: {
+    searchPlaceholder: '..البحث',
+    startQuiz: 'ابدأ الاختبار',
+  },
+  categories: {
+    selectTopic: 'اختر الموضوع',
+    featuredCategories: 'الفئات المميزة',
+    moreCategories: 'المزيد من الفئات',
+    backToHome: 'العودة إلى الصفحة الرئيسية',
+  },
+  quizDetails: {
+    historyQuiz: 'اختبار التاريخ',
+    readInstructions: 'اقرأ التعليمات التالية',
+    date: ':التاريخ',
+    timeLimit: ':الوقت المحدد',
+    attempts: ':المحاولات',
+    points: ':النقاط',
+    instructions: ':التعليمات',
+    quizConsists: ':يتكون هذا الاختبار من 5 أسئلة متعددة الاختيارات. لتحقيق النجاح في الاختبارات، من الأهم أن تظل مركزًا، وتوخي في الاعتبار ما يلي',
+    timing: 'الوقت - يجب عليك إكمال كل محاولة في جلسة واحدة، حيث يتم تخصيص 30 دقيقة لكل محاولة.',
+    answers: 'الإجابات - يمكنك مراجعة خيارات إجاباتك ومقارنتها بالإجابات الصحيحة بعد المحاولة الأخيرة.',
+    cheating: 'الغش - إذا قمت بالغش، فستفقد النقاط.',
+    startButton: 'بدء',
+    submitButton: 'إرسال',
+    backButton: 'العودة',
+    startQuizButton: 'بدء الاختبار',
+  },
+  };
+  

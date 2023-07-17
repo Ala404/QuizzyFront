@@ -36,15 +36,7 @@
         </button>
       </router-link>
 
-      <router-link :to="`/quiz/${this.quiz_id}`" class="ml-auto"
-      :class="{'mr-auto ml-0' : $i18n.locale === 'ar'}"
-      >
-        <button
-          class="bg-primary text-white font-bold py-3 px-6 rounded-3xl border-2 border-primary  hover:bg-white hover:text-primary transition duration-300 ease-in-out"
-        >
-          Start Quiz
-        </button>
-      </router-link>
+   
     </div>
 
   </div>

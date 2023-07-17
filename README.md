@@ -1,5 +1,26 @@
 # quizzy_tailwind
 
+# UI Screenchots
+
+Dashboard:
+
+![Dashboard!](web-ui/quizzyDashboard.png)
+
+Quizz Details and Description :
+
+![Description!](./web-ui/quizzyQuizzD.png)
+
+Difficulty choices:
+
+![Difficulty!](./web-ui/quizzyDiff.png)
+
+Questions:
+
+![Questions!](./web-ui/quizzyQuestion.png)
+
+Result:
+
+![Result!](./web-ui/quizzyResult.png)
 ## Project setup
 ```
 npm install

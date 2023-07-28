@@ -28,6 +28,7 @@ export default {
     };
   },
 
+
   methods: {
     increment() {
       if (this.currentQuestionIndex < this.questions.length - 1) {
@@ -89,6 +90,7 @@ export default {
 
     async submitQuiz() {
       this.calculateScore();
+      
       var minutes = Math.floor(this.remainingTime / 60);
       var seconds = this.remainingTime % 60;
       var formattedTime = `${String(minutes).padStart(2, "0")}:${String(
